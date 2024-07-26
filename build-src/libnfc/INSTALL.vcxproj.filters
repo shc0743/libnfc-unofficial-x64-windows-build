@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\f452a1c6ec743de8ad02310b62b49883\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2744B753-131B-3E4E-8E4A-4C6EB9693800}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

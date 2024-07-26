@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{426D41E0-3594-383E-8FBC-4DD3D8D11A25}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\software\Program\source\projects\nfc\libnfc-build\source\contrib\win32;D:\software\Program\source\projects\nfc\libnfc-build\build-src;D:\software\Program\source\projects\nfc\libnfc-build\source;D:\software\Program\source\projects\nfc\libnfc-build\source\include;D:\software\Program\source\projects\nfc\libnfc-build\source\libnfc\drivers;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um;C:\Program Files\libusb-win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\software\Program\source\projects\nfc\libnfc-build\source\contrib\win32;D:\software\Program\source\projects\nfc\libnfc-build\build-src;D:\software\Program\source\projects\nfc\libnfc-build\source;D:\software\Program\source\projects\nfc\libnfc-build\source\include;D:\software\Program\source\projects\nfc\libnfc-build\source\libnfc\drivers;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um;C:\Program Files\libusb-win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\software\Program\source\projects\nfc\libnfc-build\source\contrib\win32;D:\software\Program\source\projects\nfc\libnfc-build\build-src;D:\software\Program\source\projects\nfc\libnfc-build\source;D:\software\Program\source\projects\nfc\libnfc-build\source\include;D:\software\Program\source\projects\nfc\libnfc-build\source\libnfc\drivers;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um;C:\Program Files\libusb-win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\software\Program\source\projects\nfc\libnfc-build\source\contrib\win32;D:\software\Program\source\projects\nfc\libnfc-build\build-src;D:\software\Program\source\projects\nfc\libnfc-build\source;D:\software\Program\source\projects\nfc\libnfc-build\source\include;D:\software\Program\source\projects\nfc\libnfc-build\source\libnfc\drivers;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um;C:\Program Files\libusb-win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\software\Program\source\projects\nfc\libnfc-build\source\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/software/Program/source/projects/nfc/libnfc-build/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\software\CMake\bin\cmake.exe -SD:/software/Program/source/projects/nfc/libnfc-build/source -BD:/software/Program/source/projects/nfc/libnfc-build/build-src --check-stamp-file D:/software/Program/source/projects/nfc/libnfc-build/build-src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\software\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\CMake\share\cmake-3.28\Modules\CPack.cmake;D:\software\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\software\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeCCompiler.cmake;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeRCCompiler.cmake;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeSystem.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\config_windows.h.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\FindLIBUSB.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\FindPCSC.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\LibnfcDrivers.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\UseDoxygen.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\contrib\win32\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/software/Program/source/projects/nfc/libnfc-build/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\software\CMake\bin\cmake.exe -SD:/software/Program/source/projects/nfc/libnfc-build/source -BD:/software/Program/source/projects/nfc/libnfc-build/build-src --check-stamp-file D:/software/Program/source/projects/nfc/libnfc-build/build-src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\software\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\CMake\share\cmake-3.28\Modules\CPack.cmake;D:\software\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\software\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeCCompiler.cmake;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeRCCompiler.cmake;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeSystem.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\config_windows.h.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\FindLIBUSB.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\FindPCSC.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\LibnfcDrivers.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\UseDoxygen.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\contrib\win32\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/software/Program/source/projects/nfc/libnfc-build/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\software\CMake\bin\cmake.exe -SD:/software/Program/source/projects/nfc/libnfc-build/source -BD:/software/Program/source/projects/nfc/libnfc-build/build-src --check-stamp-file D:/software/Program/source/projects/nfc/libnfc-build/build-src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\software\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\CMake\share\cmake-3.28\Modules\CPack.cmake;D:\software\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\software\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeCCompiler.cmake;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeRCCompiler.cmake;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeSystem.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\config_windows.h.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\FindLIBUSB.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\FindPCSC.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\LibnfcDrivers.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\UseDoxygen.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\contrib\win32\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/software/Program/source/projects/nfc/libnfc-build/source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\software\CMake\bin\cmake.exe -SD:/software/Program/source/projects/nfc/libnfc-build/source -BD:/software/Program/source/projects/nfc/libnfc-build/build-src --check-stamp-file D:/software/Program/source/projects/nfc/libnfc-build/build-src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\software\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\CMake\share\cmake-3.28\Modules\CPack.cmake;D:\software\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\software\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\software\CMake\share\cmake-3.28\Modules\FindPkgConfig.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\software\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeCCompiler.cmake;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeRCCompiler.cmake;D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\3.28.2\CMakeSystem.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\config_windows.h.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\FindLIBUSB.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\FindPCSC.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\LibnfcDrivers.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\cmake\modules\UseDoxygen.cmake;D:\software\Program\source\projects\nfc\libnfc-build\source\contrib\win32\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\software\Program\source\projects\nfc\libnfc-build\build-src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\ZERO_CHECK.vcxproj">
+      <Project>{1CBD43E4-B299-3706-BE37-31E95D7DC430}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\libnfc\nfc.vcxproj">
+      <Project>{3DD29E51-82C0-39AA-8A9C-BBC494DBDD97}</Project>
+      <Name>nfc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-anticol.vcxproj">
+      <Project>{788A8526-1703-3EC5-8420-3C45289CD7D5}</Project>
+      <Name>nfc-anticol</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-barcode.vcxproj">
+      <Project>{10F5452D-2D01-38C2-84A3-891A43F8DEB5}</Project>
+      <Name>nfc-barcode</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-dep-initiator.vcxproj">
+      <Project>{77C1466F-D52A-341C-BF51-CD03D03154C8}</Project>
+      <Name>nfc-dep-initiator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-dep-target.vcxproj">
+      <Project>{DEB1B490-0BF1-36D0-80B3-52F381547496}</Project>
+      <Name>nfc-dep-target</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-emulate-forum-tag2.vcxproj">
+      <Project>{060B2E02-86BC-3A29-AD0A-7AE82D77E149}</Project>
+      <Name>nfc-emulate-forum-tag2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-emulate-forum-tag4.vcxproj">
+      <Project>{323DF407-7066-3692-ACCE-5319C4934271}</Project>
+      <Name>nfc-emulate-forum-tag4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-emulate-tag.vcxproj">
+      <Project>{9AD67385-AED7-366A-8A85-6EC6EA54CEDD}</Project>
+      <Name>nfc-emulate-tag</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-emulate-uid.vcxproj">
+      <Project>{F97CB4E7-72A3-39D7-A5CB-39A7BAB84075}</Project>
+      <Name>nfc-emulate-uid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-jewel.vcxproj">
+      <Project>{91EF5E7F-09C1-34A0-8347-2A0BC50B5002}</Project>
+      <Name>nfc-jewel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-list.vcxproj">
+      <Project>{7ECA16F1-FE7E-32BC-B38C-F8724083783B}</Project>
+      <Name>nfc-list</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-mfclassic.vcxproj">
+      <Project>{32383A3C-1CCF-3E08-95BF-60703FFE3FF0}</Project>
+      <Name>nfc-mfclassic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-mfsetuid.vcxproj">
+      <Project>{31A86C1A-58CD-38A0-82EC-58CA0D911F78}</Project>
+      <Name>nfc-mfsetuid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-mfultralight.vcxproj">
+      <Project>{7665F33C-8C9B-303D-87EB-8FF1278B6D3F}</Project>
+      <Name>nfc-mfultralight</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-poll.vcxproj">
+      <Project>{59565C96-0D5C-3E2F-8A73-00C220BFD509}</Project>
+      <Name>nfc-poll</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-read-forum-tag3.vcxproj">
+      <Project>{B49C3BF0-0085-31FF-A13F-659BF48A537F}</Project>
+      <Name>nfc-read-forum-tag3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-relay.vcxproj">
+      <Project>{5F8ABEA2-0D8E-3A1C-80A0-AC1A3E7A08A1}</Project>
+      <Name>nfc-relay</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-relay-picc.vcxproj">
+      <Project>{4AFC4B6B-9447-3192-A48E-2155CF615826}</Project>
+      <Name>nfc-relay-picc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfc-scan-device.vcxproj">
+      <Project>{1F23CEE2-45C0-313D-A8C5-2A4A86484854}</Project>
+      <Name>nfc-scan-device</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\nfc-st25tb.vcxproj">
+      <Project>{454DFA6E-30A7-36EC-A634-7252A4B2B1D3}</Project>
+      <Name>nfc-st25tb</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\utils\nfcutils.vcxproj">
+      <Project>{454FFFD6-64A4-3B39-BAF2-EED6502C33A1}</Project>
+      <Name>nfcutils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\pn53x-diagnose.vcxproj">
+      <Project>{DBE0955A-F88C-33AD-9B1A-E3A2ECC41A00}</Project>
+      <Name>pn53x-diagnose</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\pn53x-sam.vcxproj">
+      <Project>{EA0834A8-8853-34D6-A16C-D4A502532502}</Project>
+      <Name>pn53x-sam</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\software\Program\source\projects\nfc\libnfc-build\build-src\examples\pn53x-tamashell.vcxproj">
+      <Project>{E6C85B1C-F5A2-3CA3-8066-C80B91107EA8}</Project>
+      <Name>pn53x-tamashell</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

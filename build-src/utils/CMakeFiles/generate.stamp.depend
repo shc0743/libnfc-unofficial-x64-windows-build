@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/software/CMake/share/cmake-3.28/Modules/InstallRequiredSystemLibraries.cmake
+D:/software/Program/source/projects/nfc/libnfc-build/source/cmake/FixBundle.cmake.in
+D:/software/Program/source/projects/nfc/libnfc-build/source/contrib/win32/version.rc.in
+D:/software/Program/source/projects/nfc/libnfc-build/source/utils/CMakeLists.txt

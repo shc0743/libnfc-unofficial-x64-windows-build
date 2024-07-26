@@ -24,6 +24,9 @@
 
 （**不建议**使用未启用PCSC的版本，据说ACR122U需要PCSC）
 
+## LICENSE
+同libnfc，（LGPL3.0）。
+
 # English
 
 This is an unofficial build of [libnfc](https://github.com/nfc-tools/libnfc), a library allowing applications to access NFC devices.
@@ -48,4 +51,7 @@ The necessary files to be included is in the [includes](./includes/) folder. Rem
 7. Don't forget to put `Release/nfc.dll` to your distribution!
 
 (**NOT recommended** to use the version without PCSC, it is said that ACR122U requires PCSC)
+
+## LICENSE
+LGPL-3.0 (same as libnfc).
 

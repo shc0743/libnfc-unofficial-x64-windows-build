@@ -20,7 +20,7 @@
 3. 将`nfc.lib`放入项目的依赖库
 4. 将`includes`文件夹复制到项目中，并将其添加到项目的包含路径中
 6. 在代码中`#include <nfc/nfc.h>`，然后使用
-7. 最后别忘了将`Release/nfc.dll`添加到发行版中
+7. 最后别忘了将`Release/nfc.dll`和`Release/libusb0.dll`添加到发行版中
 
 （**不建议**使用未启用PCSC的版本，据说ACR122U需要PCSC）
 
@@ -48,7 +48,7 @@ The necessary files to be included is in the [includes](./includes/) folder. Rem
 4. Copy to the `includes` folder to your project
 5. Add it to your include path of your project
 6. `#include <nfc/nfc.h>` in your code and use it
-7. Don't forget to put `Release/nfc.dll` to your distribution!
+7. Don't forget to put `Release/nfc.dll` and `Release/libusb0.dll` to your distribution!
 
 (**NOT recommended** to use the version without PCSC, it is said that ACR122U requires PCSC)
 
